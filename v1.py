@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="Reporte Agro",page_icon="🌱",layout="wide")
 
-st.title("Casos de mora")
+st.subheader("Casos de mora")
 
 left, right = st.columns(2)
 
@@ -20,4 +20,4 @@ with left:
 
 
 with right:
-    st.components.v1.iframe(url, height=600)
+    st.components.v1.iframe(url, height=500)
