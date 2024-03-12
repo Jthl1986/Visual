@@ -20,4 +20,4 @@ with left:
 
 
 with right:
-    st.components.v1.iframe(url, height=800)
+    st.components.v1.iframe(url, height=600)
