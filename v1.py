@@ -18,8 +18,8 @@ tableau_code2 = """
 
 # Insertar el código de Tableau en la aplicación Streamlit
 with left:
-    st.components.v1.html(tableau_code, height=2000, scrolling=True)
+    st.components.v1.html(tableau_code, height=5000, scrolling=True)
 
 with right:
-    st.components.v1.html(tableau_code2, height=2000, scrolling=True)
+    st.components.v1.html(tableau_code2, height=5000, scrolling=True)
 
